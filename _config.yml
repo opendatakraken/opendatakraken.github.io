@@ -1,0 +1,35 @@
+url: http://opendatakraken.org
+
+# Site settings
+title: Open Data Kraken
+email: your-email@domain.com
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: E02C10
+  secondary: 944918  
+  secondary-dark: 472006
+
+# Team names, titles and social links
+people:
+- name: Nicola Marangoni
+  pic: niko
+  position: Lead Engineer
+  social:
+    - title: github
+      url: https://github.com/nicolamarangoni
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: github
+    url: https://github.com/opendatakraken
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Munich
+  - line: Germany
+
+# Build settings
+markdown: kramdown
+permalink: pretty
