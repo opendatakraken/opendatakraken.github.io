@@ -1,0 +1,15 @@
+---
+title: Staging
+subtitle: Database staging
+layout: default
+modal-id: 1
+date: 2016-01-01
+img: dreams.png
+thumbnail: staging.png
+alt: image-alt
+project-date: 2016-01-01
+client: Start Bootstrap
+category: DB-Automation
+description: Read the dictionary of a source-RDBMS and automatically create tables in a target-RDBMS. Optionally copy data
+
+---
