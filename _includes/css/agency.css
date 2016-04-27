@@ -351,19 +351,19 @@ section h3.section-subheading {
     text-transform: none;
 }
 
-#feature .feature-item {
+#portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
 }
 
-#feature .feature-item .feature-link {
+#portfolio .portfolio-item .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#feature .feature-item .feature-link .feature-hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -375,11 +375,11 @@ section h3.section-subheading {
     background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
 }
 
-#feature .feature-item .feature-link .feature-hover:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
-#feature .feature-item .feature-link .feature-hover .feature-hover-content {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
     position: absolute;
     top: 50%;
     width: 100%;
@@ -390,16 +390,16 @@ section h3.section-subheading {
     color: #fff;
 }
 
-#feature .feature-item .feature-link .feature-hover .feature-hover-content i {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
     margin-top: -12px;
 }
 
-#feature .feature-item .feature-link .feature-hover .feature-hover-content h3,
-#feature .feature-item .feature-link .feature-hover .feature-hover-content h4 {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
     margin: 0;
 }
 
-#feature .feature-item .feature-caption {
+#portfolio .portfolio-item .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -407,24 +407,24 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#feature .feature-item .feature-caption h4 {
+#portfolio .portfolio-item .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#feature .feature-item .feature-caption p {
+#portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-#feature * {
+#portfolio * {
     z-index: 2;
 }
 
 @media(min-width:767px) {
-    #feature .feature-item {
+    #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
 }
@@ -770,7 +770,7 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.feature-modal .modal-content {
+.portfolio-modal .modal-content {
     padding: 100px 0;
     min-height: 100%;
     border: 0;
@@ -781,32 +781,32 @@ ul.social-buttons li a:active {
     box-shadow: none;
 }
 
-.feature-modal .modal-content h2 {
+.portfolio-modal .modal-content h2 {
     margin-bottom: 15px;
     font-size: 3em;
 }
 
-.feature-modal .modal-content p {
+.portfolio-modal .modal-content p {
     margin-bottom: 30px;
 }
 
-.feature-modal .modal-content p.item-intro {
+.portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 16px;
     font-style: italic;
 }
 
-.feature-modal .modal-content ul.list-inline {
+.portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px;
 }
 
-.feature-modal .modal-content img {
+.portfolio-modal .modal-content img {
     margin-bottom: 30px;
 }
 
-.feature-modal .close-modal {
+.portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
@@ -816,11 +816,11 @@ ul.social-buttons li a:active {
     cursor: pointer;
 }
 
-.feature-modal .close-modal:hover {
+.portfolio-modal .close-modal:hover {
     opacity: .3;
 }
 
-.feature-modal .close-modal .lr {
+.portfolio-modal .close-modal .lr {
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -831,7 +831,7 @@ ul.social-buttons li a:active {
     transform: rotate(45deg);
 }
 
-.feature-modal .close-modal .lr .rl {
+.portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
