@@ -19,6 +19,12 @@ people:
   social:
     - title: github
       url: https://github.com/opendatakraken
+- name: Open Data Kraken
+  pic: https://avatars3.githubusercontent.com/u/1830660?v=3&s=400
+  position: Lead Engineer
+  social:
+    - title: github
+      url: https://github.com/openbusinessintelligence
 - name: Nicola Marangoni
   pic: niko
   position: Lead Engineer
